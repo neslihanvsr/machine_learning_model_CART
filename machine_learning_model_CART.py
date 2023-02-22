@@ -106,7 +106,7 @@ roc_auc_score(y_test, y_prob)
 
 # 10-Fold Cross Validation Method
 
-cart_model = DecisionTreeClassifier(random_state=17).fit(X, y)   #aslında cv kendisi fit ediyor burada model fit etmiş olsak da!
+cart_model = DecisionTreeClassifier(random_state=17).fit(X, y) 
 
 cv_results = cross_validate(cart_model,
                             X, y,
@@ -206,6 +206,7 @@ def val_curve_params(model, X, y, param_name, param_range, scoring="roc_auc", cv
 
 
 val_curve_params(cart_final, X, y, "max_depth", range(1, 11), scoring="f1")
+
 
 # 8. Visualizing the Decision Tree
 
