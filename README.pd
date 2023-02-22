@@ -1,5 +1,5 @@
 I have developed a machine learning model that can predict whether people have diabetes, when their characteristics are specified with CART algorithm.
-I implemented CART algorithm in Python and derive SQL, Excel, or Python codes.
+I implemented CART algorithm in Python and derive SQL, Excel, and Python codes.
 In this way, when a new record falls into the database, we can make predictions without leaving the database.
 We are able to present that prediction to the user again through the database application.
 
