@@ -1,0 +1,11 @@
+I have developed a machine learning model that can predict whether people have diabetes, when their characteristics are specified with CART algorithm.
+I implemented CART algorithm in Python and derive SQL, Excel, or Python codes.
+In this way, when a new record falls into the database, we can make predictions without leaving the database.
+We are able to present that prediction to the user again through the database application.
+
+
+Decision trees have influenced a wide field of machine learning, encompassing both classification and regression problems.
+
+The purpose of the Classification and Regression Tree (CART) algorithm is to transform the complex structures in the data set into simple decision structures.
+Heterogeneous data sets are divided into homogeneous subgroups according to a specified target variable.
+
